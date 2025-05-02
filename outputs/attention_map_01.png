@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate dummy attention map (2D)
+attention = np.random.rand(64, 64)
+
+plt.imshow(attention, cmap="hot")
+plt.colorbar(label="Attention Intensity")
+plt.title("Attention Map - Sample 01")
+plt.axis("off")
+plt.savefig("outputs/attention_map_01.png")
+plt.close()
