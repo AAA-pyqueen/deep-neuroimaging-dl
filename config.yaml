@@ -1,0 +1,6 @@
+data_path: "./data/"
+model_path: "./models/"
+output_path: "./outputs/"
+epochs: 10
+batch_size: 4
+learning_rate: 0.001
