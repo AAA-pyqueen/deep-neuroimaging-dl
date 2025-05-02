@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.nii
+*.nii.gz
+data/
+models/
+outputs/
