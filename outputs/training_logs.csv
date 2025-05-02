@@ -1,0 +1,13 @@
+import pandas as pd
+
+# Example training logs
+logs = {
+    "epoch": [1, 2, 3],
+    "loss": [0.45, 0.38, 0.31],
+    "accuracy": [0.74, 0.81, 0.87],
+    "val_loss": [0.49, 0.43, 0.39],
+    "val_accuracy": [0.72, 0.78, 0.84]
+}
+
+df = pd.DataFrame(logs)
+df.to_csv("outputs/training_logs.csv", index=False)
