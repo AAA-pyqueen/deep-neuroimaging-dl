@@ -1,0 +1,5 @@
+input_shape: [64, 64, 64, 1]
+architecture: [{"layer": "Conv3D", "filters": 32, "kernel_size": [3, 3, 3], "activation": "relu"}, {"layer": "MaxPooling3D", "pool_size": [2, 2, 2]}, {"layer": "Conv3D", "filters": 64, "kernel_size": [3, 3, 3], "activation": "relu"}, {"layer": "MaxPooling3D", "pool_size": [2, 2, 2]}, {"layer": "Flatten"}, {"layer": "Dense", "units": 64, "activation": "relu"}, {"layer": "Dense", "units": 1, "activation": "sigmoid"}]
+optimizer: adam
+loss: binary_crossentropy
+metrics: ["accuracy"]
