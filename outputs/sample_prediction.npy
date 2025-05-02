@@ -1,0 +1,5 @@
+import numpy as np
+
+# Simulate model output
+sample_prediction = np.random.rand(1, 64, 64, 64)
+np.save("outputs/sample_prediction.npy", sample_prediction)
