@@ -1,7 +1,8 @@
 # Deep Learning for Neuroimaging Data Analysis
 
 This project explores neuroimaging datasets (ADNI, OpenNeuro, HCP) using deep learning models developed in TensorFlow/PyTorch. The purpose is to detect brain anomalies and better understand brain disorders through model training and visualizations.
-** This project is in progress, please stop by for updates! Thank you for supporting my research! **
+
+**This project is in progress, please stop by for updates! Thank you for supporting my research!**
 
 ## Features
 - Data access from OpenNeuro and similar sources
